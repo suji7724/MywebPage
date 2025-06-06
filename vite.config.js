@@ -6,14 +6,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base: '/My-Portfolio-/',
+  base: '/MywebPage/',
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
   },
-  build: {
-    rollupOptions: {
-      // Ensure Rollup resolves files with extensions
-      external: [],
-    },
-  },
-})
+  
+});
