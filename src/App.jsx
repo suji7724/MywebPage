@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import Header from './components/Header';
-import Hero from './Components/Hero'
-import About from './Components/About'
+import Header from './Components/Header.jsx';
+import Hero from './Components/Hero';
+import About from './Components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Contact from './Components/Contact'
-import Footer from './Components/Footer'
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   const [theme, setTheme] = useState('light');
