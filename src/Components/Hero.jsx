@@ -6,7 +6,7 @@ function Hero() {
     >
       <div className="text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Sujit Shah</h2>
-        <p className="text-xl md:text-2xl mb-6">Front-End Developer and problem solver</p>
+        <p className="text-xl md:text-2xl mb-6">Software Developer and problem solver</p>
         <button
           onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
           className="bg-white text-primary px-6 py-3 rounded-full hover:bg-gray-200 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 transition"

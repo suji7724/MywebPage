@@ -9,7 +9,7 @@ function Header({ toggleTheme, theme }) {
   };
 
   return (
-    <nav className="bg-primary text-white p-4 shadow-md">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-primary text-white p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold">Sujit Shah</h1>
         <div className="md:hidden">

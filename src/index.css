@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #111827;    /* change this to your preferred color */
+  --color-secondary: #d1d5db;  /* change this to your preferred color */
+}
+
 body {
   @apply bg-gray-900;
 }
-

@@ -23,7 +23,7 @@ function Footer() {
             <i className="fab fa-x-twitter text-2xl"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/sujit-shah-965247251/"
+            href="https://www.linkedin.com/in/sujitshah-dev/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-secondary transition"
