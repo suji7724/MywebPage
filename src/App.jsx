@@ -2,8 +2,8 @@ import { useState } from 'react';
 import Header from './Components/Header.jsx';
 import Hero from './Components/Hero';
 import About from './Components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
+import Skills from './Components/Skills';
+import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 
@@ -18,7 +18,7 @@ function App() {
 
   const [projects] = useState([
     { id: 1, title: 'Property Listing WebApp', description: 'A Property listing webapp that uses React for frontend and node.js for Backend. in this the user can list their property and also user can find the property to rent.', link: 'https://github.com/suji7724/rentease', demo: 'https://rentease-iota.vercel.app/' },
-    { id: 2, title: 'E-Commerce Store', description: 'A mock online store.', link: '#', demo: '#' },
+    { id: 2, title: 'AI-Recipe generator', description: 'AI Recipe Generator is a full-stack web application that uses AI to generate recipes based on available ingredients and user preferences. It helps users discover meals, reduce food waste, and plan cooking efficiently.', link: 'https://github.com/suji7724/Ai-recipe-Generator', demo: '#' },
     { id: 3, title: 'Portfolio Website', description: 'I created a portfolio website using React.js and tailwindCss ,where i showcases my skills and projects on that i have worked.', link: 'https://github.com/suji7724/MywebPage', demo: 'https://suji7724.github.io/MywebPage/' },
   ]);
 
